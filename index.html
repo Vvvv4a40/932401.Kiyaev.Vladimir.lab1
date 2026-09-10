@@ -1,27 +1,214 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
-    <title>Lab1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Инжектор Гаджет</title>
+
+    <style>
+        body {
+            background-color: #111111;
+            color: #d9d9d9;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: #1c1c1c;
+            padding: 25px;
+            text-align: center;
+            border-bottom: 2px solid silver;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        section {
+            background-color: #1b1b1b;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #777777;
+        }
+
+        aside {
+            background-color: #252525;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-left: 4px solid silver;
+        }
+
+        img {
+            border-radius: 10px;
+            border: 2px solid silver;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            max-width: 500px;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            background-color: #222222;
+            color: white;
+            border: 1px solid silver;
+        }
+
+        textarea {
+            height: 120px;
+        }
+
+        button {
+            background-color: silver;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #1c1c1c;
+            padding: 20px;
+            border-top: 2px solid silver;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Инжектор Гаджет</h1>
-    <img src="C:\Users\kiaev\Desktop\photo_2026-05-22_02-19-56.jpg" alt="Аватарочка">
-    <h2>Обзор и оценка новейших гаджетов</h2>
-    <strong>САСУНГ ГАЛКТИКА С21</strong>
-    <p>Самсунг гелкси с21 был долго моим основным телеофном, но дл янынешнего временни он довольно сильно устарел, но все равно хорошо себя показывал
-        так как являлся все таки флагманом, но время берет своё и батарея не выдерживала и половины дня активной работы и пришлось его заменить на более новый телефон
-    </p>
-    <strong>ЭПЛ 17 БАЗОВЫЙ</strong>
-    <p>На замену самсунга пришел айфон 17 купленый на бу рэнка по его рыночной цене, и он себя отлично показывает по сравнению со старым гаджетом.
-        Полностью им доволен и продолжаю им пользоваться
-    </p>
-    <strong>PIONEER DDJ 200</strong>
-    <p>Самый доступный отличный пульт для того чтобы попробовать себя в диджеинге, даст много новых эмоций
-        но по сути в нем сэкономили на всем кроме функционала. Нету премиальных материалов и интересных фишек, все у него по базе
-    </p>
-    <strong>Коври для мыши блади</strong>
-    <p>отличный коврик, покупал сто лет назад на замену другого маленького коврика. Он был типа контрол, а этот блади фастовый. Всё ещё не привык, если буду менять, то возьму контрол.</p>
+
+    <header>
+        <h1>Инжектор Гаджет</h1>
+
+        <p>Владимир Фамилия</p>
+
+        <img src="images/avatar.jpg" alt="Аватар автора страницы" width="200" height="200">
+
+        <h2>Обзор и оценка новейших гаджетов</h2>
+    </header>
+
+
+    <main>
+
+        <section>
+            <h2>Навыки</h2>
+
+            <ul>
+                <li>Тестирование различных устройств</li>
+                <li>Сравнение технических характеристик</li>
+                <li>Анализ преимуществ и недостатков устройств</li>
+                <li>Написание обзоров техники</li>
+            </ul>
+        </section>
+
+
+        <section>
+            <h2>Проекты</h2>
+
+            <ol>
+                <li>
+                    <h3>Samsung Galaxy S21</h3>
+
+                    <p>
+                        Samsung Galaxy S21 долгое время был моим основным телефоном.
+                        На сегодняшний день он уже довольно сильно устарел, но всё равно
+                        хорошо себя показывал, так как являлся флагманом своего поколения.
+                        Со временем главным недостатком стала батарея, которая уже не
+                        выдерживала даже половины дня активной работы, поэтому телефон
+                        пришлось заменить.
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Apple iPhone 17</h3>
+
+                    <p>
+                        На замену Samsung пришёл iPhone 17, купленный на вторичном рынке
+                        примерно по его рыночной цене. По сравнению со старым смартфоном
+                        он показывает себя отлично. Полностью им доволен и продолжаю
+                        пользоваться.
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Pioneer DDJ-200</h3>
+
+                    <p>
+                        Один из самых доступных контроллеров для того, чтобы попробовать
+                        себя в диджеинге. Он позволяет получить практически весь базовый
+                        функционал DJ-контроллера, однако производитель сэкономил на
+                        материалах и дополнительных возможностях.
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Коврик Bloody</h3>
+
+                    <p>
+                        Большой коврик для мыши, который я покупал на замену маленькому.
+                        Предыдущий коврик был типа Control, а этот относится скорее к Fast.
+                        К высокой скорости поверхности я до сих пор не полностью привык,
+                        поэтому следующий коврик, скорее всего, выберу Control.
+                    </p>
+                </li>
+            </ol>
+        </section>
+
+
+        <aside>
+            <h2>Любимая категория устройств</h2>
+
+            <p>
+                Больше всего мне интересны смартфоны. Нравится сравнивать устройства
+                разных производителей, их производительность, камеры, автономность
+                и удобство использования.
+            </p>
+        </aside>
+
+
+        <section>
+            <h2>Обратная связь</h2>
+
+            <form>
+
+                <label for="name">Имя:</label>
+                <br>
+
+                <input type="text" id="name" name="name" placeholder="Введите ваше имя">
+
+                <br>
+
+                <label for="email">Email:</label>
+                <br>
+
+                <input type="email" id="email" name="email" placeholder="Введите ваш Email">
+
+                <br>
+
+                <label for="message">Сообщение:</label>
+                <br>
+
+                <textarea id="message" name="message" placeholder="Введите ваше сообщение"></textarea>
+
+                <br>
+
+                <button type="submit">Отправить</button>
+
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 Владимир Фамилия</p>
+    </footer>
 
 </body>
+
 </html>
